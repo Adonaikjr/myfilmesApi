@@ -6,4 +6,9 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    body{
+        background: ${({theme}) => theme.COLOR.BLACK};
+        color: ${({theme}) => theme.COLOR.WHITE};
+    }
 `
